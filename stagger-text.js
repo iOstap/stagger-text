@@ -33,7 +33,7 @@
         yPercent: -100,
         duration: 0.5,
         ease: "customEase", 
-        stagger: { each: 0.015, from: "start" },
+        stagger: { each: 0.01, from: "start" },
         overwrite: true
       });
     });
@@ -42,7 +42,7 @@
         yPercent: 0,
         duration: 0.5,
         ease: "customEase",
-        stagger: { each: 0.015, from: "end" }
+        stagger: { each: 0.01, from: "end" }
       });
     });
   });
